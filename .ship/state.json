@@ -1,0 +1,49 @@
+{
+  "v1": {
+    "config": null,
+    "releaseName": "ship",
+    "upstream": "github.com/rancher/terraform-controller/manifests",
+    "upstreamContents": {
+      "upstreamFiles": [
+        {
+          "filePath": "00-clusterrolebinding.yaml",
+          "fileContents": "YXBpVmVyc2lvbjogcmJhYy5hdXRob3JpemF0aW9uLms4cy5pby92MQpraW5kOiBDbHVzdGVyUm9sZUJpbmRpbmcKbWV0YWRhdGE6CiAgbGFiZWxzOgogICAgYXBwcy5rdWJlcm5ldGVzLmlvL2NvbXBvbmVudDogY29udHJvbGxlcgogICAgYXBwcy5rdWJlcm5ldGVzLmlvL25hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgbmFtZTogdGVycmFmb3JtLWNvbnRyb2xsZXIKcm9sZVJlZjoKICBhcGlHcm91cDogcmJhYy5hdXRob3JpemF0aW9uLms4cy5pbwogIGtpbmQ6IENsdXN0ZXJSb2xlCiAgbmFtZTogY2x1c3Rlci1hZG1pbgpzdWJqZWN0czoKLSBraW5kOiBTZXJ2aWNlQWNjb3VudAogIG5hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgbmFtZXNwYWNlOiB0ZXJyYWZvcm0tY29udHJvbGxlcgo="
+        },
+        {
+          "filePath": "00-crd.yaml",
+          "fileContents": "YXBpVmVyc2lvbjogYXBpZXh0ZW5zaW9ucy5rOHMuaW8vdjFiZXRhMQpraW5kOiBDdXN0b21SZXNvdXJjZURlZmluaXRpb24KbWV0YWRhdGE6CiAgbmFtZTogbW9kdWxlcy50ZXJyYWZvcm1jb250cm9sbGVyLmNhdHRsZS5pbwogIG5hbWVzcGFjZTogdGVycmFmb3JtLWNvbnRyb2xsZXIKc3BlYzoKICBncm91cDogdGVycmFmb3JtY29udHJvbGxlci5jYXR0bGUuaW8KICB2ZXJzaW9uOiB2MQogIG5hbWVzOgogICAga2luZDogTW9kdWxlCiAgICBwbHVyYWw6IG1vZHVsZXMKICAgIHNpbmd1bGFyOiBtb2R1bGUKICBzY29wZTogTmFtZXNwYWNlZAotLS0KYXBpVmVyc2lvbjogYXBpZXh0ZW5zaW9ucy5rOHMuaW8vdjFiZXRhMQpraW5kOiBDdXN0b21SZXNvdXJjZURlZmluaXRpb24KbWV0YWRhdGE6CiAgbmFtZTogc3RhdGVzLnRlcnJhZm9ybWNvbnRyb2xsZXIuY2F0dGxlLmlvCiAgbmFtZXNwYWNlOiB0ZXJyYWZvcm0tY29udHJvbGxlcgpzcGVjOgogIGdyb3VwOiB0ZXJyYWZvcm1jb250cm9sbGVyLmNhdHRsZS5pbwogIHZlcnNpb246IHYxCiAgbmFtZXM6CiAgICBraW5kOiBTdGF0ZQogICAgcGx1cmFsOiBzdGF0ZXMKICAgIHNpbmd1bGFyOiBzdGF0ZQogIHNjb3BlOiBOYW1lc3BhY2VkCi0tLQphcGlWZXJzaW9uOiBhcGlleHRlbnNpb25zLms4cy5pby92MWJldGExCmtpbmQ6IEN1c3RvbVJlc291cmNlRGVmaW5pdGlvbgptZXRhZGF0YToKICBuYW1lOiBleGVjdXRpb25zLnRlcnJhZm9ybWNvbnRyb2xsZXIuY2F0dGxlLmlvCiAgbmFtZXNwYWNlOiB0ZXJyYWZvcm0tY29udHJvbGxlcgpzcGVjOgogIGdyb3VwOiB0ZXJyYWZvcm1jb250cm9sbGVyLmNhdHRsZS5pbwogIHZlcnNpb246IHYxCiAgbmFtZXM6CiAgICBraW5kOiBFeGVjdXRpb24KICAgIHBsdXJhbDogZXhlY3V0aW9ucwogICAgc2luZ3VsYXI6IGV4ZWN1dGlvbgogIHNjb3BlOiBOYW1lc3BhY2VkCg=="
+        },
+        {
+          "filePath": "00-namespace.yaml",
+          "fileContents": "YXBpVmVyc2lvbjogdjEKa2luZDogTmFtZXNwYWNlCm1ldGFkYXRhOgogIG5hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCg=="
+        },
+        {
+          "filePath": "00-serviceaccount.yaml",
+          "fileContents": "YXBpVmVyc2lvbjogdjEKa2luZDogU2VydmljZUFjY291bnQKbWV0YWRhdGE6CiAgbGFiZWxzOgogICAgYXBwcy5rdWJlcm5ldGVzLmlvL2NvbXBvbmVudDogY29udHJvbGxlcgogICAgYXBwcy5rdWJlcm5ldGVzLmlvL25hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgbmFtZTogdGVycmFmb3JtLWNvbnRyb2xsZXIKICBuYW1lc3BhY2U6IHRlcnJhZm9ybS1jb250cm9sbGVyCg=="
+        },
+        {
+          "filePath": "10-deployment.yaml",
+          "fileContents": "YXBpVmVyc2lvbjogYXBwcy92MWJldGExCmtpbmQ6IERlcGxveW1lbnQKbWV0YWRhdGE6CiAgbGFiZWxzOgogICAgcnVuOiB0ZXJyYWZvcm0tY29udHJvbGxlcgogIG5hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgbmFtZXNwYWNlOiB0ZXJyYWZvcm0tY29udHJvbGxlcgpzcGVjOgogIHJlcGxpY2FzOiAxCiAgc2VsZWN0b3I6CiAgICBtYXRjaExhYmVsczoKICAgICAgcnVuOiB0ZXJyYWZvcm0tY29udHJvbGxlcgogIHRlbXBsYXRlOgogICAgbWV0YWRhdGE6CiAgICAgIGxhYmVsczoKICAgICAgICBydW46IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgICAgICAgdmVyc2lvbjogdjAuMC4zCiAgICBzcGVjOgogICAgICBzZXJ2aWNlQWNjb3VudE5hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgICAgIGNvbnRhaW5lcnM6CiAgICAgICAgLSBpbWFnZTogcmFuY2hlci90ZXJyYWZvcm0tY29udHJvbGxlcjpsYXRlc3QKICAgICAgICAgIG5hbWU6IHRlcnJhZm9ybS1jb250cm9sbGVyCiAgICAgICAgICBjb21tYW5kOiBbInRlcnJhZm9ybS1jb250cm9sbGVyIl0KICAgICAgICAgIGFyZ3M6IFsiLS1uYW1lc3BhY2UiLCAidGVycmFmb3JtLWNvbnRyb2xsZXIiXQo="
+        }
+      ]
+    },
+    "shipVersion": {
+      "version": "0.44.0",
+      "buildTime": "2019-05-20T19:33:45Z",
+      "dependencies": {
+        "helm": "v2.13.0",
+        "kustomize": "v2.0.3",
+        "terraform": "v0.11.14"
+      }
+    },
+    "contentSHA": "ce824e9824955e44a98ce175fe659fce4957d8758d3f2cb111b664bc69d149be",
+    "lifecycle": {
+      "stepsCompleted": {
+        "kustomize": true,
+        "kustomize-intro": true,
+        "outro": true,
+        "render": true
+      }
+    }
+  }
+}

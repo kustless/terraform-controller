@@ -1,0 +1,8 @@
+kind: ""
+apiversion: ""
+resources:
+- 00-clusterrolebinding.yaml
+- 00-crd.yaml
+- 00-namespace.yaml
+- 00-serviceaccount.yaml
+- 10-deployment.yaml
